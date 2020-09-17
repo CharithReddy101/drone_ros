@@ -6,6 +6,7 @@ WhyCon is a computer vision based system which can be used to localize mobile ro
 
 Whycon markers solve this problem by using very less computation, low-cost camera and good precision in pose estimation. They are concentric circles with  a white background. It uses different image processing techniques to localize the robot and estimate the pose.
 
+
 ![](img/whycon.png)
 
 *For more information, visit this [repo](https://github.com/lrse/whycon).*
