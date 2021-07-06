@@ -13,7 +13,7 @@ Whycon markers solve this problem by using very less computation, low-cost camer
 
 
 ## Introduction to AruCo Markers
-AruCo markers are binary sqaure matrices which are used for localization and pose estimation just like WhyCon markers. But the difference is  AruCo markers are more robust when compared to WayCon markers.
+AruCo markers are binary sqaure matrices which are used for localization and pose estimation just like WhyCon markers. But the difference is  AruCo markers are more robust when compared to WhyCon markers.
 ![](img/aruco.png)
 
 Let's consider a 7x7 AruCo marker.Divide it equally into rows and columns which will result in 7X7 blocks with binary colors. If we remove the outer black layer, we are left with a 5X5 matrix. In this, 1,3,5 coulmns are parity bits and 2,4 columns are data bits. So we will be left with 10 data bits which can give a combination of 2^10=1024 different AruCo markers. These markers can be used for pose estimation, camera caliberation and many more applications. We can also use these markers to direct a robot in a warehouse by giving different functionalities to different IDs.
@@ -39,5 +39,5 @@ This is an overview of PID controller.
 
 
 
-*Note:I will be updating the readme after the implementation of PID, AruCo and WayCon using ROS.*
+*Note:I will be updating the readme after the implementation of PID, AruCo and WhyCon using ROS.*
 
